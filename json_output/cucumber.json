@@ -1,0 +1,314 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Credentials Step",
+        "description": "",
+        "id": "freecrmprologinandmakingcontacts;credentials-step;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11962255901,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "owner chilling on loginpage",
+            "match": {
+              "location": "contactsstepdefinition.owner_chilling_on_Loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9758600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "owner checked the title",
+            "match": {
+              "location": "contactsstepdefinition.owner_checked_the_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488253300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "owner enter \"imran_mohamed1986@yahoo.com\" and \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "imran_mohamed1986@yahoo.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 47
+                }
+              ],
+              "location": "contactsstepdefinition.owner_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5133535500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "owner touching Login Button",
+            "match": {
+              "location": "contactsstepdefinition.owner_touching_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5116377701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "owner landed in homepage",
+            "match": {
+              "location": "contactsstepdefinition.owner_landed_in_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6734937400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "owner touching contacts button",
+            "match": {
+              "location": "contactsstepdefinition.owner_touching_contacts_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11498499700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "owner inserting credentails \"tim\" and \"cook\" and \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tim",
+                  "offset": 29
+                },
+                {
+                  "val": "cook",
+                  "offset": 39
+                },
+                {
+                  "val": "manager",
+                  "offset": 50
+                }
+              ],
+              "location": "contactsstepdefinition.owner_inserting_credentails_firstname_and_lastname_and_position(String,String,String)"
+            },
+            "matchedColumns": [
+              4,
+              6,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93363901,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "owner checking saved contacts",
+            "match": {
+              "location": "contactsstepdefinition.owner_checking_saved_contacts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1407325201,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "owner relaxed the browser",
+            "match": {
+              "location": "contactsstepdefinition.owner_relaxed_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Credentials Step",
+        "description": "",
+        "id": "freecrmprologinandmakingcontacts;credentials-step;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9082733300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "owner chilling on loginpage",
+            "match": {
+              "location": "contactsstepdefinition.owner_chilling_on_Loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6941400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "owner checked the title",
+            "match": {
+              "location": "contactsstepdefinition.owner_checked_the_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 389106500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "owner enter \"imran_mohamed1986@yahoo.com\" and \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "imran_mohamed1986@yahoo.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 47
+                }
+              ],
+              "location": "contactsstepdefinition.owner_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5143217900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "owner touching Login Button",
+            "match": {
+              "location": "contactsstepdefinition.owner_touching_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5100422300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "owner landed in homepage",
+            "match": {
+              "location": "contactsstepdefinition.owner_landed_in_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6772795900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "owner touching contacts button",
+            "match": {
+              "location": "contactsstepdefinition.owner_touching_contacts_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11555291400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "owner inserting credentails \"tom\" and \"sean\" and \"cashier\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 29
+                },
+                {
+                  "val": "sean",
+                  "offset": 39
+                },
+                {
+                  "val": "cashier",
+                  "offset": 50
+                }
+              ],
+              "location": "contactsstepdefinition.owner_inserting_credentails_firstname_and_lastname_and_position(String,String,String)"
+            },
+            "matchedColumns": [
+              4,
+              6,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78334299,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "owner checking saved contacts",
+            "match": {
+              "location": "contactsstepdefinition.owner_checking_saved_contacts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1066356499,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "owner relaxed the browser",
+            "match": {
+              "location": "contactsstepdefinition.owner_relaxed_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRMproLoginandMakingContacts",
+    "description": "",
+    "id": "freecrmprologinandmakingcontacts",
+    "keyword": "Feature",
+    "uri": "C:/selenium-workspace/FreeCRMproBDD/src/main/java/FreeCRMFeatures/contacts.feature"
+  }
+]

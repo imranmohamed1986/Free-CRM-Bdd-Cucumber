@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="81.639506">
+<testcase classname="FreeCRMproLoginandMakingContacts" name="Credentials Step" time="42.444307">
+<system-out><![CDATA[Given owner chilling on loginpage...........................................passed
+When owner checked the title................................................passed
+Then owner enter "imran_mohamed1986@yahoo.com" and "Test@123"...............passed
+Then owner touching Login Button............................................passed
+Then owner landed in homepage...............................................passed
+Then owner touching contacts button.........................................passed
+Then owner inserting credentails "tim" and "cook" and "manager".............passed
+Then owner checking saved contacts..........................................passed
+Then owner relaxed the browser..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FreeCRMproLoginandMakingContacts" name="Credentials Step 2" time="39.195199">
+<system-out><![CDATA[Given owner chilling on loginpage...........................................passed
+When owner checked the title................................................passed
+Then owner enter "imran_mohamed1986@yahoo.com" and "Test@123"...............passed
+Then owner touching Login Button............................................passed
+Then owner landed in homepage...............................................passed
+Then owner touching contacts button.........................................passed
+Then owner inserting credentails "tom" and "sean" and "cashier".............passed
+Then owner checking saved contacts..........................................passed
+Then owner relaxed the browser..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
